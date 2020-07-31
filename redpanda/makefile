@@ -1,6 +1,6 @@
 CC = g++
 
-IFLAGS = -Iinclude/redpanda -I../vendor/spdlog/include
+IFLAGS = -Iinclude/redpanda -Ivendor/spdlog/include
 CXXFLAGS = -std=c++11 -fPIC -Wall -g $(IFLAGS)
 LDFLAGS =  -shared #-L/usr/local/lib -lGLU -lGLEW -lXi -lm -lGL -lm -lpthread -ldl -ldrm -lXdamage -lX11-xcb -lxcb-glx -lxcb-dri2 -lglfw3 -lrt -lm -ldl -lXrandr -lXinerama -lXxf86vm -lXext -lXcursor -lXrender -lXfixes -lX11 -lpthread -lxcb -lXau -lXdmcp
 

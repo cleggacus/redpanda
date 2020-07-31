@@ -1,6 +1,6 @@
 CC = g++
 
-IFLAGS = -I../redpanda/include -I../vendor/spdlog/include
+IFLAGS = -I../redpanda/include -I../redpanda/vendor/spdlog/include
 CXXFLAGS = -std=c++11 -Wall -g $(IFLAGS)
 LDFLAGS = -L../redpanda -Wl,-rpath=../redpanda -lRP 
 
